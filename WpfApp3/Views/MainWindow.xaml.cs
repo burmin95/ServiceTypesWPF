@@ -11,7 +11,9 @@ namespace WpfApp3.Views
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new MainWindowViewModel();
+            DataContext = new MainWindowViewModel();   
         }
+
+        
     }
 }
